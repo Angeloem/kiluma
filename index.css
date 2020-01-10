@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+    list-style: none;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+
+    background: dodgerblue;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+
+
+.backgroundImage{
+    background: url(pad2.jpg) no-repeat fixed;
+    background-position-y: bottom;
+    background-size: 100%;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+
+    font-size: 2em;
+}
+
+.carBackgroundImage{
+    background: url(run.jpg) no-repeat fixed;
+    background-position-y: bottom;
+    background-size: 100%;
+}
+
+
+.catalog{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+
+    margin: 5px 0;
+
+    text-align: center;
+
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.gameCards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gameCards a{
+    padding: 5px;
+    border-radius: 10%;
+
+    overflow: hidden;
+    background: dodgerblue;
+
+    transition: all 200ms linear;
+}
+
+.gameCards img{
+    border-radius: 10%;
+
+    height: 450px !important;
+    width: 350px !important;
+}
+
+.cards{
+    cursor: pointer;
+    text-align: center;
+}
+
+.gameCards a:hover {
+    background: rgba(30, 144, 255, .5);
+}
+
+.gameCards a:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.helpline p{
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.elp{
+    text-align: left !important;
+}
+
+.blackPad{
+    height: 1280px;
+
+    background: url("pad1.jpg") fixed;
+}

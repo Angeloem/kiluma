@@ -1,0 +1,115 @@
+.specs{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+
+    background: dodgerblue;
+    color: white;
+
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.stars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.listOfStars{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.year{
+    display: flex;
+    justify-content: center;
+}
+
+.year h1{
+    padding: 5px;
+}
+
+.year h1:nth-child(2){
+    font-weight: normal;
+}
+
+.details{
+    margin: 5px;
+    padding: 5px;
+
+    text-indent: 30px;
+
+    line-height: 25px;
+}
+
+.dashboard{
+    display: flex;
+}
+
+.feat1{
+    flex: 3 1 80%;
+}
+
+.feat{
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+.download{
+    flex: 1 1 20%;
+
+    position: relative;
+}
+
+.downloadSpecs{
+    margin: 0 5px;
+    padding: 10px 0;
+
+    background: dodgerblue;
+    color: white;
+
+    border-radius: 5px;
+}
+
+.download button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background: dodgerblue;
+
+    padding: 10px;
+    margin: 10px 0;
+
+    cursor: pointer;
+
+    transition: color 200ms linear, background-color 200ms linear;
+    font-weight: bold;
+}
+
+button span{
+    padding: 0 5px;
+}
+
+.download button:hover{
+    background: white;
+    color: dodgerblue;
+
+    border: 2px solid dodgerblue;
+}
+
+h2{
+    margin: 5px;
+    text-align: center;
+}
